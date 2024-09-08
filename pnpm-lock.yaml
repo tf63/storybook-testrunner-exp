@@ -257,6 +257,9 @@ importers:
       '@storybook/addon-storysource':
         specifier: ^8.2.9
         version: 8.2.9(storybook@8.2.9)
+      '@storybook/test':
+        specifier: ^8.2.9
+        version: 8.2.9(jest@29.7.0)(storybook@8.2.9)(vitest@2.0.5)
       '@storybook/test-runner':
         specifier: ^0.19.1
         version: 0.19.1(@types/node@22.5.2)(storybook@8.2.9)
@@ -11430,7 +11433,7 @@ packages:
   /regenerator-transform@0.15.2:
     resolution: {integrity: sha512-hfMp2BoF0qOk3uc5V20ALGDS2ddjQaLrdl7xrGXvAIow7qeWRM2VA2HuCHkUKk9slq3VwEwLNK3DFBqDfPGYtg==}
     dependencies:
-      '@babel/runtime': 7.25.0
+      '@babel/runtime': 7.25.6
     dev: true
 
   /regex-parser@2.3.0:
