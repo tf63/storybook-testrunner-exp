@@ -9,11 +9,7 @@ export default {
     title: 'Component/Counter',
     component: Counter,
     render: (props) => <Counter {...props} />,
-    decorators: (Story: StoryFn) => (
-        <div>
-            <Story />
-        </div>
-    )
+    decorators: (Story: StoryFn) => <Story />
 } satisfies Meta<CounterType>
 
 export const Default: StoryObj<CounterType> = {
