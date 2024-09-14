@@ -1,0 +1,5 @@
+type ViolationCardProps = { text: string }
+
+export const ViolationCard = ({ text }: ViolationCardProps) => {
+    return <div className="w-full rounded-xl bg-indigo-300 p-5 text-center text-indigo-500">{text}</div>
+}
