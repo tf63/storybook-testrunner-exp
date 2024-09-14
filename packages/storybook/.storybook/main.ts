@@ -1,7 +1,7 @@
 import path from 'node:path'
 
 import type { StorybookConfig } from '@storybook/react-vite'
-import react from '@vitejs/plugin-react-swc'
+import react from '@vitejs/plugin-react'
 import { mergeConfig } from 'vite'
 
 const config: StorybookConfig = {
@@ -14,6 +14,7 @@ const config: StorybookConfig = {
         '@storybook/addon-storysource',
         '@storybook/addon-a11y',
         '@storybook/addon-console',
+        '@storybook/addon-coverage',
         '@whitespace/storybook-addon-html'
     ],
     framework: {
